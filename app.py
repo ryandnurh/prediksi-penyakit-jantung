@@ -129,7 +129,7 @@ if st.button('Prediksi Penyakit Jantung'):
 
     if (heart_prediction[0] == 1):
         heart_diagnosis = 'Pasien Terkena Penyakit Jantung'
-        st.success(heart_diagnosis)
+        st.warning(heart_diagnosis)
     else:
         heart_diagnosis = 'Pasien Tidak Terkena Penyakit Jantung'
         st.success(heart_diagnosis)
